@@ -30,6 +30,8 @@ def writeMain(lst):
     return res
 
 def writeCode(src):
+    if src[-1] == ".":
+        src += " "
     wordlist = src.replace(" ", "_")
     wordlist = wordlist.split(".")
     res = ""
