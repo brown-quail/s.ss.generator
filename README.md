@@ -5,7 +5,7 @@
 ss.s.generator.py 가 전부입니다. 이 readme 파일 하단에도 붙여넣어 두었습니다.
 
 ### 사용 방법
-텍스트 string을 WriteCode 함수의 인수로 넣으면 코드가 출력됩니다.
+텍스트 string을 `WriteCode(src)` 함수의 인수로 넣으면 코드가 출력됩니다.
 
 - Input: string (ex. "슉.슈슉.시.시발.시발럼아.슉.슈슉")
 - Output: string
@@ -16,10 +16,11 @@ ss.s.generator.py 가 전부입니다. 이 readme 파일 하단에도 붙여넣�
 - 입력 텍스트의 처음과 끝에 온점(.)이 오면 __안됩니다.__
 
 ### 예제
-텍스트 src = "슉.슈슉.시.시발.시발럼아.슉.슈슉" 가 주어지면, WriteCode(src)를 실행시켜 다음과 같은 코드를 얻습니다:
+텍스트 src = "슉.슈슉.시.시발.시발럼아.슉.슈슉" 가 주어지면, `WriteCode(src)`를 실행시켜 다음과 같은 코드를 얻습니다:
 <pre>
 <code>
 >>> WriteCode("슉.슈슉.시.시발.시발럼아.슉.슈슉")
+[실행 결과]
 
 class 슉:
     def __init__(self):
