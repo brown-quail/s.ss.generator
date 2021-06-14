@@ -52,6 +52,10 @@ print(슉.ret())
 
 혹은 https://ideone.com/ 와 같은 온라인 코드 편집기에서도 실행시켜볼 수 있습니다.
 
+### 모티브
+
+<img src="s.ss.jpg" width="450px">
+
 ### 소스 코드
 <pre>
 def writeInit(word):
