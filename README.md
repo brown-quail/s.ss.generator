@@ -19,6 +19,8 @@ ss.s.generator.py 가 전부입니다. 이 readme 파일 하단에도 붙여넣�
 텍스트 src = "슉.슈슉.시.시발.시발럼아.슉.슈슉" 가 주어지면, WriteCode(src)를 실행시켜 다음과 같은 코드를 얻습니다:
 <pre>
 <code>
+>>> WriteCode("슉.슈슉.시.시발.시발럼아.슉.슈슉")
+
 class 슉:
     def __init__(self):
         self.result = "슉"
